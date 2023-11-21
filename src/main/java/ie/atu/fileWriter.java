@@ -7,11 +7,9 @@ public class fileWriter {
 
             // initialize a string
             String fileName = "File13.txt";
-            try(FileWriter writer = new FileWriter(fileName)) {
+            try(FileWriter writer = new FileWriter(fileName, true)) {
 
-                writer.write("Top Text");
-
-                writer.append("\nBottom text");
+                writer.write("\nBottom Text");
 
                 System.out.println("Content has successfully been written to the file");
 
