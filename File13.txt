@@ -1,1 +1,2 @@
-This is a new string to add to the file
+Top Text
+Bottom text
